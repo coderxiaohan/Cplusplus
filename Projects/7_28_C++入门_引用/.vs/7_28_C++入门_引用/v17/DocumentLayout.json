@@ -18,7 +18,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 137,
+      "VerticalTabListWidth": 228,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -38,8 +38,7 @@
               "RelativeToolTip": "7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\SeqList.cpp",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-06T15:58:35.268Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T15:58:35.268Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\SeqList.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-06T15:57:45.844Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-06T15:57:45.844Z"
             },
             {
               "$type": "Document",
@@ -60,9 +58,9 @@
               "Title": "Test.cpp",
               "DocumentMoniker": "E:\\bitelesson\\118_C\u002B\u002B\\C\u002B\u002B\\Cplusplus\\Projects\\7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\Test.cpp",
               "RelativeDocumentMoniker": "7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\Test.cpp",
-              "ToolTip": "E:\\bitelesson\\118_C\u002B\u002B\\C\u002B\u002B\\Cplusplus\\Projects\\7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\Test.cpp*",
-              "RelativeToolTip": "7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\Test.cpp*",
-              "ViewState": "AQIAAL4BAAAAAAAAAAAAALYBAAAAAAAA",
+              "ToolTip": "E:\\bitelesson\\118_C\u002B\u002B\\C\u002B\u002B\\Cplusplus\\Projects\\7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\Test.cpp",
+              "RelativeToolTip": "7_28_C\u002B\u002B\u5165\u95E8_\u5F15\u7528\\Test.cpp",
+              "ViewState": "AQIAAH8BAAAAAAAAAAAAAJgBAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-06T15:55:25.31Z",
               "EditorCaption": ""
