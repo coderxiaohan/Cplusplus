@@ -361,9 +361,9 @@ using namespace std;
 // 日期类的实现
 #include"Date.h"
 
-int main()
+void TestDate1() 
 {
-	// 日期加法
+		// 日期加法
 	//Date d1(2025, 8, 1);
 	//Date d2 = d1 += 100;
 	//d1.Print();  //2025-11-9
@@ -398,6 +398,43 @@ int main()
 	Date d4 = d3 - 100;
 	d3.Print();  //2025-11-9
 	d4.Print();  //2025 - 8 - 1
+}
+
+void TestDate2()
+{
+	//// 日期类的比较运算符重载
+	//Date d1(2025, 11, 9);
+	//Date d2(2025, 10, 9);
+	//cout << (d1 == d2) << endl;
+	
+	// 日期类的相减
+	//Date d1(2024, 9, 16);
+	//Date d2(2025, 9, 16);
+	//cout << d1 - d2 << endl;
+
+	//int i = 1;
+	//double d = 1.1;
+	//cout << i; // cout.operator<<(i)
+
+	////日期类的输出
+	//Date d3(2025, 9, 16);
+	//Date d4(2020, 9, 16);
+	////operator<<(cout, d1);
+	//cout << d3 << d4;
+
+	//日期类的输入
+	Date d3(2025, 9, 16);
+	Date d4(2020, 9, 16);
+	Date d5(2020, 9, 16);
+
+	cin >> d3 >> d4 >> d5;
+	cout << d3 << d4 << d5;
+
+}
+
+int main()
+{
+	TestDate2();
 
 
 	return 0;
