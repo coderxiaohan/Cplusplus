@@ -12,9 +12,9 @@ public:
 
 	//全缺省参数在只函数声明或者函数定义
 	Date(int year = 2000, int month = 1, int day = 1);
-	void Print();
+	void Print() const;
 
-	int GetMonthDay(int year, int month)
+	int GetMonthDay(int year, int month) const
 	{
 		assert(month > 0 && month < 13);
 		
@@ -30,7 +30,7 @@ public:
 		}
 	}
 
-	bool CheckDate()
+	bool CheckDate() const
 	{
 		if (_month < 1 || _month > 13)
 			return false;
@@ -43,23 +43,23 @@ public:
 		return true;
 	}
 
-	bool operator<(const Date& d);
-	bool operator<=(const Date& d);
-	bool operator>(const Date& d);
-	bool operator>=(const Date& d);
-	bool operator==(const Date& d);
-	bool operator!=(const Date& d);
+	bool operator<(const Date& d) const;
+	bool operator<=(const Date& d) const;
+	bool operator>(const Date& d) const;
+	bool operator>=(const Date& d) const;
+	bool operator==(const Date& d) const;
+	bool operator!=(const Date& d) const;
 
 	// d1 += 天数
 	Date& operator+=(int day);
-	Date operator+(int day);
+	Date operator+(int day) const;
 
 	// d1 -= 天数
 	Date& operator-=(int day);
 	Date operator-(int day);
 
 	// d1 - d2
-	int operator-(const Date& d);
+	int operator-(const Date& d) const;
 
 	// ++d1 -> d1.operator++()
 	Date& operator++();
@@ -78,6 +78,18 @@ public:
 	// 流插入
 	// 不建议，因为Date* this占据了一个参数位置，使用d<<cout不符合习惯
 	//void operator<<(ostream& out);
+
+	Date* operator&() 
+	{
+		return this;
+		//return (Date*)0x00ff1204;
+	}
+
+	const Date* operator&() const
+	{
+		return this;
+		//return nullptr;
+	}
 
 private:
 	int _year;

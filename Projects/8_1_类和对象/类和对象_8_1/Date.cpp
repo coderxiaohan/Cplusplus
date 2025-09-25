@@ -8,7 +8,8 @@ Date::Date(int year, int month, int day)
 	_day = day;
 };
 
-void Date::Print()
+// void Print(const Date* const this) const
+void Date::Print() const
 {
 	cout << _year << "-" << _month << "-" << _day << endl;
 }
@@ -74,7 +75,7 @@ Date& Date::operator+=(int day)
 }
 
 // d1 + 100
-Date Date::operator+(int day)
+Date Date::operator+(int day) const
 {
 	Date tmp(*this);
 	tmp += day;
@@ -165,7 +166,7 @@ Date Date::operator--(int)
 	return tmp;
 }
 
-bool Date::operator<(const Date& d)
+bool Date::operator<(const Date& d) const
 {
 	if (_year < d._year)
 	{
@@ -184,33 +185,33 @@ bool Date::operator<(const Date& d)
 	return false;
 }
 
-bool Date::operator<=(const Date& d)
+bool Date::operator<=(const Date& d) const
 {
 	return *this < d || *this == d;
 }
-bool Date::operator>(const Date& d)
+bool Date::operator>(const Date& d) const
 {
 	return !(*this <= d);
 }
-bool Date::operator>=(const Date& d)
+bool Date::operator>=(const Date& d) const
 {
 	return !(*this < d);
 }
-bool Date::operator==(const Date& d)
+bool Date::operator==(const Date& d) const
 {
 	return _year == d._year
 		&& _month == d._month
 		&& _day == d._day;
 }
 
-bool Date::operator!=(const Date& d)
+bool Date::operator!=(const Date& d) const
 {
 	return !(*this == d);
 }
 
 //日期类的相减
 // d1 - d2
-int Date::operator-(const Date& d)
+int Date::operator-(const Date& d) const
 {
 	Date max = *this;
 	Date min = d;

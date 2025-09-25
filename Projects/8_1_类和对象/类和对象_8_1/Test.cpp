@@ -432,14 +432,44 @@ void TestDate2()
 
 }
 
-int main()
+void TestDate4()
 {
-	TestDate2();
+	const Date d1(2025, 9, 18);
+	d1.Print();
+	Date d3 = d1 + 100;
 
+	Date d2(2025, 9, 18);
+	d2.Print();
+	d2 += 10;
 
-	return 0;
+	bool ret = d1 > d2;
+
+	Date* p1 = &d2;
+	const Date* p2 = &d1;
+	cout << p1 << " " << p2 << endl;
 
 }
+
+//int main()
+//{
+//	int i = 1;
+//	double d = 1.1;
+//	cout << i; // cout.operator<<(i)
+//	cout << d; // cout.operator<<(d)
+//
+//	return 0;
+//}
+
+
+//
+//int main()
+//{
+//	TestDate4();
+//
+//
+//	return 0;
+//
+//}
 
 
 
