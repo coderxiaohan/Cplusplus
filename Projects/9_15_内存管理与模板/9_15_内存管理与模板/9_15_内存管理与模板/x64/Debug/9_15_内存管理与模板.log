@@ -1,0 +1,6 @@
+﻿  Test.cpp
+E:\bitelesson\118_C++\C++\Cplusplus\Projects\9_15_内存管理与模板\9_15_内存管理与模板\Test.cpp(355,20): warning C4101: “bb2”: 未引用的局部变量
+E:\bitelesson\118_C++\C++\Cplusplus\Projects\9_15_内存管理与模板\9_15_内存管理与模板\Test.cpp(351,6): warning C4101: “aa1”: 未引用的局部变量
+E:\bitelesson\118_C++\C++\Cplusplus\Projects\9_15_内存管理与模板\9_15_内存管理与模板\Test.cpp(354,12): warning C4101: “bb1”: 未引用的局部变量
+E:\bitelesson\118_C++\C++\Cplusplus\Projects\9_15_内存管理与模板\9_15_内存管理与模板\Test.cpp(352,12): warning C4101: “aa2”: 未引用的局部变量
+  9_15_内存管理与模板.vcxproj -> E:\bitelesson\118_C++\C++\Cplusplus\Projects\9_15_内存管理与模板\9_15_内存管理与模板\x64\Debug\9_15_内存管理与模板.exe
